@@ -1,56 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
-  </head>
-  <body>
-    <main>
-      <article>
-        <div class="page" style="border-color: midnightblue;">
-          <div class="stackable grid">
-            <div class="row">
-              <div class="three wide center aligned column">
-                <!-- Avatar -->
-              </div>
-              <div class="thirteen wide column">
-                <div class="stackable grid">
-                  <div class="sixteen wide column">
-                    <!-- Name, job, contacts -->
-                  </div>
-                  <div class="sixteen wide mobile only column">
-                    <div class="divider"></div>
-                  </div>
-                  <div class="sixteen wide column">
-                    <!-- Intro -->
-                  </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Résumé</title>
+  <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+</head>
+
+<body>
+  <main>
+    <article>
+      <div class="page" style="border-color: midnightblue;">
+        <div class="stackable grid">
+          <div class="row">
+            <div class="three wide center aligned column">
+              <!-- Avatar -->
+            </div>
+            <div class="thirteen wide column">
+              <div class="stackable grid">
+                <div class="sixteen wide column">
+                  <h1 class="name">Bill Gates</h1>
+                  <div class="job"> American business magnate, software developer, investor, author, and philanthropist.
+                    He is the co-founder of Microsoft Corporation.</div>
+                  <ul class="contacts">
+                    <li>
+                      <a href="https://twitter.com/billgates" rel="author" class="twitter">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path
+                            d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" />
+                        </svg>
+                        <span>billgates</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/thisisbillgates/" rel="author" class="instagram">
+                        <svg class="icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z">
+                          </path>
+                        </svg>
+                        <span>thisisbillgates</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/BillGates/" rel="author" class="facebook">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path
+                            d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z" />
+                        </svg>
+                        <span>BillGates</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="sixteen wide mobile only column">
+                  <div class="divider"></div>
+                </div>
+                <div class="sixteen wide column">
+                  <h2>Resume</h2>
+                  <p>Bill Gates is a technologist, business leader, and philanthropist. He grew up in Seattle,
+                    Washington, with an amazing and supportive family who encouraged his interest in computers at an
+                    early age. He dropped out of college to start Microsoft with his childhood friend Paul Allen. Today,
+                    Bill co-chairs the Bill & Melinda Gates Foundation with Melinda French Gates, where he works to give
+                    his wealth back to society.
+                    Bill grew up in Seattle with his two sisters. His late father, William H. Gates Sr., was a Seattle
+                    attorney and one of the co-chairs of the Bill & Melinda Gates Foundation. His late mother, Mary
+                    Gates, was a schoolteacher, University of Washington regent, and chairwoman of United Way
+                    International. Bill has three children.</p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="sixteen wide column">
-                <div class="fat divider"></div>
-              </div>
+          </div>
+          <div class="row">
+            <div class="sixteen wide column">
+              <div class="fat divider"></div>
             </div>
-            <div class="row">
-              <div class="ten wide column">
-                <!-- Experience -->
-              </div>
-              <div class="six wide column">
-                <!-- Languages -->
-                <!-- Skills -->
-                <!-- Character -->
-                <!-- Likes -->
-                <!-- Dislikes -->
-                <!-- Wants -->
-                <!-- Education -->
-                <!-- Articles -->
-              </div>
+          </div>
+          <div class="row">
+            <div class="ten wide column">
+              <!-- Experience -->
+            </div>
+            <div class="six wide column">
+              <!-- Languages -->
+              <!-- Skills -->
+              <!-- Character -->
+              <!-- Likes -->
+              <!-- Dislikes -->
+              <!-- Wants -->
+              <!-- Education -->
+              <!-- Articles -->
             </div>
           </div>
         </div>
-      </article>
-    </main>
-  </body>
+      </div>
+    </article>
+  </main>
+</body>
+
 </html>
